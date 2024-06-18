@@ -21,9 +21,9 @@
             <th>CIDADE</th>
             <th>ESTADO</th>
             <th>NASCIMENTO/CRIAÇÃO</th>
-            <th>IMAGEM</th>
             <th>EDITAR</th>
             <th>DELETAR</th>
+            <th>exportar</th>
         </tr>
     </thead>
 
@@ -41,9 +41,9 @@
                 <td>@cliente.Cidade</td>
                 <td>@cliente.Estado</td>
                 <td>@cliente.Nascimento</td>
-                <td><img src="@Url.Content(cliente.Imagem)" alt="Imagem do cliente"/></td>
                 <td><a href="@Url.Action("Modifica","Cliente",new{id=cliente.Id})">EDITAR</a></td>
                 <td><a href="@Url.Action("Apaga","Cliente",new{id=cliente.Id})">DELETAR</a></td>
+                <td><a href="@Url.Action("ExportarCliente","Cliente",new{id=cliente.Id})">EXPORTAR</a></td>
             </tr>
         }
     </tbody>

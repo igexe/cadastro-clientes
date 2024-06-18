@@ -30,3 +30,4 @@ C:\Users\Administrator\Desktop\C#\aulas_C-\cadastro-clientes\obj\Debug\net8.0\ca
 C:\Users\Administrator\Desktop\C#\aulas_C-\cadastro-clientes\obj\Debug\net8.0\ref\cadastro-clientes.dll
 C:\Users\Administrator\Desktop\C#\aulas_C-\cadastro-clientes\bin\Debug\net8.0\ClienteModel.json
 C:\Users\Administrator\Desktop\C#\aulas_C-\cadastro-clientes\bin\Debug\net8.0\UsuarioModel.json
+C:\Users\Administrator\Desktop\C#\aulas_C-\cadastro-clientes\obj\Debug\net8.0\cadastro-clientes.sourcelink.json

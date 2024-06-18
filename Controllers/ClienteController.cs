@@ -63,4 +63,21 @@ public class ClienteController:Controller{
         _clienteRepo.Remover(id);
         return RedirectToAction("Mostra","Cliente");
     }
+
+    [HttpGet]
+        public IActionResult ExportarCliente(int id)
+        {
+            Cliente cliente = _repositorio.Buscar(id);
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            // Remover o caminho da imagem do cliente
+            cliente.ImagemCaminho = null;
+
+            var json = JsonConvert.SerializeObject(cliente, Formatting.Indented);
+            var bytes = System.Text.Encoding.UTF8.GetBytes(json);
+            return File(bytes, "application/json", $"cliente_{cliente.Id}.json");
+        }
 }

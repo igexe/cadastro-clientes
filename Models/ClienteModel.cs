@@ -11,8 +11,7 @@ public class ClienteModel:cadastro_clientes.repositorio.Entity{
     public string Cidade {get;set;}
     public string Estado {get;set;}
     public DateTime Nascimento {get;set;}
-    public string Imagem { get; set; }
-    
+
     public ClienteModel(){
         CPF_CNPJ=0;
         InscricaoEstadual=0;
@@ -24,6 +23,5 @@ public class ClienteModel:cadastro_clientes.repositorio.Entity{
         Cidade=string.Empty;
         Estado=string.Empty;
         Nascimento=DateTime.MinValue;
-        Imagem=string.Empty;
     }
 }
