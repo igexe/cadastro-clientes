@@ -1,0 +1,54 @@
+@model IEnumerable<cadastro_clientes.Models.ClienteModel>
+
+
+@{
+    ViewData["Title"]="Clientes Cadastrados";
+}
+
+<h2>CLIENTES REGISTRADOS</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>CPF/CNPJ</th>
+            <th>INSCRIÇÃO ESTADUAL</th>
+            <th>NOME</th>
+            <th>NOME FANTASIA</th>
+            <th>ENDEREÇO</th>
+            <th>NUMERO</th>
+            <th>BAIRRO</th>
+            <th>CIDADE</th>
+            <th>ESTADO</th>
+            <th>NASCIMENTO/CRIAÇÃO</th>
+            <th>IMAGEM</th>
+            <th>EDITAR</th>
+            <th>DELETAR</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var cliente in Model){
+            <tr>
+                <td>@cliente.Id</td>
+                <td>@cliente.CPF_CNPJ</td>
+                <td>@cliente.InscricaoEstadual</td>
+                <td>@cliente.Nome</td>
+                <td>@cliente.NomeFantasia</td>
+                <td>@cliente.Endereco</td>
+                <td>@cliente.NumeroEnd</td>
+                <td>@cliente.Bairro</td>
+                <td>@cliente.Cidade</td>
+                <td>@cliente.Estado</td>
+                <td>@cliente.Nascimento</td>
+                <td><img src="@Url.Content(cliente.Imagem)" alt="Imagem do cliente"/></td>
+                <td><a href="@Url.Action("Modifica","Cliente",new{id=cliente.Id})">EDITAR</a></td>
+                <td><a href="@Url.Action("Apaga","Cliente",new{id=cliente.Id})">DELETAR</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a href="@Url.Action("Cadastro","Cliente")">Cadastrar Cliente</a>
+</p>

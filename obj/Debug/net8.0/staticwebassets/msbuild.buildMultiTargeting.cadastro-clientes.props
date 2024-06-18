@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\cadastro-clientes.props" />
+</Project>

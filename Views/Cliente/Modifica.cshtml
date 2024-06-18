@@ -1,0 +1,58 @@
+@model cadastro_clientes.Models.ClienteModel
+
+@{ViewData["Title"]="EDITAR";}
+
+<form asp-action="Modifica" method="post">
+    <input asp-for="Id" type="hidden"/>
+    <div>
+        <label>CPF/CNPJ</label>
+        <input asp-for="CPF_CNPJ"/>
+        <span asp-validation-for="CPF_CNPJ"/>
+    </div>
+    <div>
+        <label>INSCRIÇÃO ESTADUAL</label>
+        <input asp-for="InscricaoEstadual"/>
+        <span asp-validation-for="InscricaoEstadual"/>
+    </div>
+    <div>
+        <label>NOME</label>
+        <input asp-for="Nome"/>
+        <span asp-validation-for="Nome"/>
+    </div>
+    <div>
+        <label>NOME FANTASIA</label>
+        <input asp-for="NomeFantasia"/>
+        <span asp-validation-for="NomeFantasia"/>
+    </div>
+    <div>
+        <label>ENDEREÇO</label>
+        <input asp-for="Endereco"/>
+        <span asp-validation-for="Endereco"/>
+    </div>
+    <div>
+        <label>NUMERO</label>
+        <input asp-for="NumeroEnd"/>
+        <span asp-validation-for="NumeroEnd"/>
+    </div>
+    <div>
+        <label>BAIRRO</label>
+        <input asp-for="Bairro"/>
+        <span asp-validation-for="Bairro"/>
+    </div>
+    <div>
+        <label>CIDADE</label>
+        <input asp-for="Cidade"/>
+        <span asp-validation-for="Cidade"/>
+    </div>
+    <div>
+        <label>ESTADO</label>
+        <input asp-for="Estado"/>
+        <span asp-validation-for="Estado"/>
+    </div>
+    <div>
+        <label>NASCIMENTO/CRIAÇÃO</label>
+        <input asp-for="Nascimento" type="date"/>
+        <span asp-validation-for="Nascimento"/>
+    </div>
+    <button type="submit">ALTERAR</button>
+</form>

@@ -1,0 +1,422 @@
+[
+    {
+      "name": "São Paulo"
+    },
+    {
+      "name": "Rio de Janeiro"
+    },
+    {
+      "name": "Brasília"
+    },
+    {
+      "name": "Salvador"
+    },
+    {
+      "name": "Fortaleza"
+    },
+    {
+      "name": "Belo Horizonte"
+    },
+    {
+      "name": "Manaus"
+    },
+    {
+      "name": "Curitiba"
+    },
+    {
+      "name": "Recife"
+    },
+    {
+      "name": "Porto Alegre"
+    },
+    {
+      "name": "Belém"
+    },
+    {
+      "name": "Goiânia"
+    },
+    {
+      "name": "Guarulhos"
+    },
+    {
+      "name": "Campinas"
+    },
+    {
+      "name": "São Luís"
+    },
+    {
+      "name": "Maceió"
+    },
+    {
+      "name": "Natal"
+    },
+    {
+      "name": "Teresina"
+    },
+    {
+      "name": "São Bernardo do Campo"
+    },
+    {
+      "name": "João Pessoa"
+    },
+    {
+      "name": "Santo André"
+    },
+    {
+      "name": "São José dos Campos"
+    },
+    {
+      "name": "Osasco"
+    },
+    {
+      "name": "Ribeirão Preto"
+    },
+    {
+      "name": "Uberlândia"
+    },
+    {
+      "name": "Sorocaba"
+    },
+    {
+      "name": "Contagem"
+    },
+    {
+      "name": "Aracaju"
+    },
+    {
+      "name": "Feira de Santana"
+    },
+    {
+      "name": "Cuiabá"
+    },
+    {
+      "name": "Juiz de Fora"
+    },
+    {
+      "name": "Joinville"
+    },
+    {
+      "name": "Londrina"
+    },
+    {
+      "name": "Niterói"
+    },
+    {
+      "name": "Campo Grande"
+    },
+    {
+      "name": "São José do Rio Preto"
+    },
+    {
+      "name": "Duque de Caxias"
+    },
+    {
+      "name": "Caxias do Sul"
+    },
+    {
+      "name": "Campos dos Goytacazes"
+    },
+    {
+      "name": "Macapá"
+    },
+    {
+      "name": "Florianópolis"
+    },
+    {
+      "name": "São José"
+    },
+    {
+      "name": "Mauá"
+    },
+    {
+      "name": "Diadema"
+    },
+    {
+      "name": "Campina Grande"
+    },
+    {
+      "name": "Santos"
+    },
+    {
+      "name": "Betim"
+    },
+    {
+      "name": "Aparecida de Goiânia"
+    },
+    {
+      "name": "São Vicente"
+    },
+    {
+      "name": "Ananindeua"
+    },
+    {
+      "name": "Vila Velha"
+    },
+    {
+      "name": "Carapicuíba"
+    },
+    {
+      "name": "Maringá"
+    },
+    {
+      "name": "Olinda"
+    },
+    {
+      "name": "Cariacica"
+    },
+    {
+      "name": "Bauru"
+    },
+    {
+      "name": "Vitória"
+    },
+    {
+      "name": "Caucaia"
+    },
+    {
+      "name": "Itaquaquecetuba"
+    },
+    {
+      "name": "São João de Meriti"
+    },
+    {
+      "name": "Jundiaí"
+    },
+    {
+      "name": "Taubaté"
+    },
+    {
+      "name": "Franca"
+    },
+    {
+      "name": "Nova Iguaçu"
+    },
+    {
+      "name": "Pelotas"
+    },
+    {
+      "name": "Piracicaba"
+    },
+    {
+      "name": "Porto Velho"
+    },
+    {
+      "name": "Rio Branco"
+    },
+    {
+      "name": "Canoas"
+    },
+    {
+      "name": "Jaboatão dos Guararapes"
+    },
+    {
+      "name": "São Gonçalo"
+    },
+    {
+      "name": "Várzea Grande"
+    },
+    {
+      "name": "Campos Gerais"
+    },
+    {
+      "name": "Mossoró"
+    },
+    {
+      "name": "Embu das Artes"
+    },
+    {
+      "name": "Suzano"
+    },
+    {
+      "name": "Uberaba"
+    },
+    {
+      "name": "Paulista"
+    },
+    {
+      "name": "Limeira"
+    },
+    {
+      "name": "Caruaru"
+    },
+    {
+      "name": "Blumenau"
+    },
+    {
+      "name": "Guarujá"
+    },
+    {
+      "name": "Novo Hamburgo"
+    },
+    {
+      "name": "Gravataí"
+    },
+    {
+      "name": "São José dos Pinhais"
+    },
+    {
+      "name": "Praia Grande"
+    },
+    {
+      "name": "Boa Vista"
+    },
+    {
+      "name": "Petrolina"
+    },
+    {
+      "name": "Cascavel"
+    },
+    {
+      "name": "Mogi das Cruzes"
+    },
+    {
+      "name": "Diadema"
+    },
+    {
+      "name": "João Monlevade"
+    },
+    {
+      "name": "Volta Redonda"
+    },
+    {
+      "name": "Foz do Iguaçu"
+    },
+    {
+      "name": "Imperatriz"
+    },
+    {
+      "name": "Angra dos Reis"
+    },
+    {
+      "name": "Cotia"
+    },
+    {
+      "name": "Santarém"
+    },
+    {
+      "name": "Palmas"
+    },
+    {
+      "name": "Barueri"
+    },
+    {
+      "name": "Ponta Grossa"
+    },
+    {
+      "name": "Rondonópolis"
+    },
+    {
+      "name": "Arapiraca"
+    },
+    {
+      "name": "Ipatinga"
+    },
+    {
+      "name": "Araraquara"
+    },
+    {
+      "name": "Cabo Frio"
+    },
+    {
+      "name": "Macaé"
+    },
+    {
+      "name": "Ilhéus"
+    },
+    {
+      "name": "Juazeiro do Norte"
+    },
+    {
+      "name": "Montes Claros"
+    },
+    {
+      "name": "Marabá"
+    },
+    {
+      "name": "São Carlos"
+    },
+    {
+      "name": "Presidente Prudente"
+    },
+    {
+      "name": "Governador Valadares"
+    },
+    {
+      "name": "Ribeirão das Neves"
+    },
+    {
+      "name": "Anápolis"
+    },
+    {
+      "name": "Sete Lagoas"
+    },
+    {
+      "name": "Divinópolis"
+    },
+    {
+      "name": "Itaboraí"
+    },
+    {
+      "name": "Parnaíba"
+    },
+    {
+      "name": "Criciúma"
+    },
+    {
+      "name": "Chapecó"
+    },
+    {
+      "name": "Vitória da Conquista"
+    },
+    {
+      "name": "Umuarama"
+    },
+    {
+      "name": "Sobral"
+    },
+    {
+      "name": "Uruguaiana"
+    },
+    {
+      "name": "Ituiutaba"
+    },
+    {
+      "name": "Itajaí"
+    },
+    {
+      "name": "Dourados"
+    },
+    {
+      "name": "Santana do Livramento"
+    },
+    {
+      "name": "Passo Fundo"
+    },
+    {
+      "name": "Poços de Caldas"
+    },
+    {
+      "name": "Araranguá"
+    },
+    {
+      "name": "Alagoinhas"
+    },
+    {
+      "name": "Itapeva"
+    },
+    {
+      "name": "Caxias"
+    },
+    {
+      "name": "Lages"
+    },
+    {
+      "name": "Poá"
+    },
+    {
+      "name": "Araguaína"
+    },
+    {
+      "name": "Itabuna"
+    }
+  ]
