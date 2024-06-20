@@ -5,6 +5,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using cadastro_clientes.Models;
 using cadastro_clientes.repositorio;
+using System.Text.Json;
 
 namespace cadastro_clientes.Controllers;
 
@@ -64,19 +65,16 @@ public class ClienteController:Controller{
         return RedirectToAction("Mostra","Cliente");
     }
 
-    [HttpGet]
+    [HttpGet("ExportarCliente")]
         public IActionResult ExportarCliente(int id)
         {
-            Cliente cliente = _repositorio.Buscar(id);
+            var cliente = _clienteRepo.Buscar(id);
             if (cliente == null)
             {
                 return NotFound();
             }
 
-            // Remover o caminho da imagem do cliente
-            cliente.ImagemCaminho = null;
-
-            var json = JsonConvert.SerializeObject(cliente, Formatting.Indented);
+            var json = JsonSerializer.Serialize(cliente, new JsonSerializerOptions{WriteIndented=true});
             var bytes = System.Text.Encoding.UTF8.GetBytes(json);
             return File(bytes, "application/json", $"cliente_{cliente.Id}.json");
         }

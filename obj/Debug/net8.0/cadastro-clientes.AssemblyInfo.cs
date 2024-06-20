@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cadastro-clientes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7fbb68eaff5676ff253ef6d5951d618e64e1ece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8023cb70d2e1fe5180496e8ef29c43f7db1a96ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("cadastro-clientes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cadastro-clientes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
